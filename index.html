@@ -368,6 +368,7 @@ body{font-family:var(--body);-webkit-font-smoothing:antialiased}
 #btn-fs:hover{opacity:1}
 #mnav{display:none}
 #rot-hint{display:none}
+@media (pointer:coarse),(max-width:900px){.slide:not(.active){display:none!important}.bg i{filter:blur(70px)}}
 html,body{overscroll-behavior:none}
 @media (max-width:900px) and (orientation:portrait){#rot-hint{display:block;position:fixed;top:calc(50% - 30vw - 70px);left:16px;right:16px;text-align:center;direction:rtl;color:#C9C3BA;font:500 16px/1.5 var(--body);z-index:98}}
 @media (max-width:900px){#mnav{display:flex;position:fixed;bottom:14px;left:0;right:0;justify-content:center;gap:24px;z-index:99}#mnav button{width:52px;height:52px;border-radius:50%;border:0;background:rgba(0,0,0,.45);color:#fff;font-size:28px}}
